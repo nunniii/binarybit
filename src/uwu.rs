@@ -46,11 +46,11 @@ impl Into<bool> for Uwu {
 impl Uwu {
     pub fn not(self) -> Uwu {
         match self {
-            Uwu::Yea => Uwu::Nah,      // Inverte Yea para Nah
-            Uwu::Yeah => Uwu::Nope,    // Inverte Yeah para Nope
-            Uwu::Nah => Uwu::Yea,      // Inverte Nah para Yea
-            Uwu::Nope => Uwu::Yeah,    // Inverte Nope para Yeah
-            _ => self,                 // As outras variantes permanecem inalteradas
+            Uwu::Yea => Uwu::Nah,      
+            Uwu::Yeah => Uwu::Nope,    
+            Uwu::Nah => Uwu::Yea,      
+            Uwu::Nope => Uwu::Yeah,   
+            _ => self,                
         }
     }
 }
