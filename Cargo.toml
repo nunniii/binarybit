@@ -1,6 +1,6 @@
 [package]
 name = "binarybit"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Mateus Nunes <mateusnss@protonmail.ch>"]
 description = "Library for Boolean algebra operations in Rust" 
